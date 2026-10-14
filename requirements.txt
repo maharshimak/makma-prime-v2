@@ -1,0 +1,9 @@
+openai>=1.109.0
+fastapi>=0.116.0
+uvicorn[standard]>=0.35.0
+python-dotenv>=1.1.0
+pydantic>=2.11.0
+psutil>=7.0.0
+pyautogui>=0.9.54; platform_system == "Windows"
+
+jsonschema>=4.23,<5

@@ -1,0 +1,3 @@
+# Setup
+
+Python 3.12: create a fresh virtual environment; install requirements-tested.txt for the reproduced offline test environment. Run `python -B -m pytest -q -p no:cacheprovider tests` from the repository root. Real credentials and external/process effects are denied by conftest.py. For local interactive use, review requirements.txt (Windows desktop-control dependency included there), set only needed untracked environment variables, and run `python app.py`; bind only loopback. Provider requests require deliberate configuration and may incur charges. Never expose this local desktop assistant to a shared network.
